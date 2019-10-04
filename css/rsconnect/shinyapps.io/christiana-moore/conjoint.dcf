@@ -1,0 +1,13 @@
+name: conjoint
+title: conjoint
+username:
+account: christiana-moore
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1285007
+bundleId: 2467384
+url: https://christiana-moore.shinyapps.io/conjoint/
+when: 1570161806.0047
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: conjoint.csv|conjoint2.csv|grayscale.css|grayscale.min.css
