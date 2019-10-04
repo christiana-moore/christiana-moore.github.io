@@ -71,12 +71,12 @@ ui <- shinyUI(pageWithSidebar(
   mainPanel(
     h4("The conditional average marginal component effect represents the change in the probability of a male or female politician being chosen as credible, dependent on key respondent characteristics."),
     h5(textOutput("caption")),
-    plotOutput("gender"),
-    verbatimTextOutput("sum")
+    plotOutput("gender")
   )
 ))
 
 shinyApp(ui = ui, server = server)
 
+rsconnect::deployApp()
 
 
